@@ -257,3 +257,48 @@ input:checked + .slider:before {
   font-family: 'Poppins', sans-serif;
   border-bottom: 2px solid #333;
 }
+.contact-form{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 50px;
+  grid-gap: 50px;
+  margin: 70px;
+}
+.form-item{
+  border: 2px solid #333;
+  background-color: #f1f1f1;
+  color: #333;
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  padding: 10px;
+}
+textarea{
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 2;
+  height: 100% !important;
+}
+.btn{
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+  background-color: #333;
+  color: #f1f1f1;
+  border: 2px solid #f1f1f1;
+  cursor: pointer;
+  transition: 0.5s;
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+  padding: 10px;
+}
+.btn:hover{
+  color: #333;
+  background-color: #f1f1f1;
+  border: 2px solid #333;
+}
